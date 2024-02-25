@@ -87,12 +87,10 @@ int main() {
         else if (current == ';') { //Add space
             buffer += ' ';
         }
-        else if (current == '!') { //End sentence
-            std::cout << "Buffer: " << buffer << std::endl;
-            buffer.clear();
-        }
         index++;
         current = input[index];
     }
+
+    std::cout << "Word: " << buffer << std::endl;
     return 0;
 }

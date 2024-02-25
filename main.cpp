@@ -62,6 +62,8 @@ int main() {
     g.set_dot(&z);
     g.set_dash(&q);
 
+    //....,.,._..,._..,___,;.__,___,._.,._..,_..,! = hello world
+
     std::string input;
     std::string buffer;
     std::cin >> input;
